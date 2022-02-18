@@ -31,7 +31,7 @@ const Chart = () => {
             setDailyData(await fetchDailyData())
         }
         fetchAPI()
-        console.log(dailyData, "dailyData")
+        // console.log(dailyData, "dailyData2")
     },[])
 
     const lineChart = (
